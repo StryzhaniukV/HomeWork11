@@ -1,0 +1,28 @@
+@media (max-width: 1250px) {
+    
+    .banner .left,
+    .banner .right {
+        width: 100%;
+    }
+    .video-box {
+        justify-content: center;
+    }
+    .banner .row {
+        flex-direction: column-reverse;
+    }
+    .banner .right {
+        margin-bottom: 30px;
+    }
+    .banner .left {
+        align-items: center;
+    }
+    .banner .left h1 {
+        
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner .left p {
+    margin-bottom: 30px;
+    text-align: center;
+    }
+}

@@ -1,0 +1,21 @@
+@media (min-width: 767px) {
+    header .header-menu input {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    
+    header .header-menu nav {
+        display: none;
+        
+    }
+
+    header .header-menu input:checked + nav {
+    display: block;
+
+    }
+    header nav a {
+        padding: 20px;
+    }
+
+}

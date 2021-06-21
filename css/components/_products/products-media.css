@@ -1,0 +1,23 @@
+@media (max-width: 1250px) {
+    .products .menu ul li {
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) {
+    .products .images {
+        justify-content: center;
+    }
+    .products .images img {
+        width: calc(100%/3);
+    }
+}
+@media (max-width: 767px) {
+    .products .images img {
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .products .images img {
+        width: 100%;
+    }
+}

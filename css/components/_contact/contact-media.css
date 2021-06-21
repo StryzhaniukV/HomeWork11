@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+    .contact .row {
+        text-align: center;
+    }
+    .contact-header .short-line {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 767px) {
+    .contact .information {
+        flex-direction: column;
+
+    }
+    .contact .information .info-left, 
+    .contact .information .info-right {
+         width: 100%;
+     }
+     .contact .information .info-left {
+         margin-bottom: 30px;
+     }
+     .info-right .adress {
+         margin-left: 0px;
+         padding: 20px;
+     }
+}

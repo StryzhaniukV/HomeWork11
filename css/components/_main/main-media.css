@@ -19,3 +19,10 @@
 
 
 }
+@media (max-width: 500px) {
+
+    .main .right .icon {
+
+        width: 100%;
+    }
+}

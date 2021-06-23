@@ -8,9 +8,9 @@
         justify-content: center;
     }
     .banner .row {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
-    .banner .right {
+    .banner .left {
         margin-bottom: 30px;
     }
     .banner .left {

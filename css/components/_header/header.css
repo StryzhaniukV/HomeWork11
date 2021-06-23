@@ -2,6 +2,9 @@ header {
     padding-top: 30px;
     background-color: var(--top-bg-color);
 }
+header .header-menu input {
+    display: none;
+}
 header .header-menu {
     width: 100%;
 }

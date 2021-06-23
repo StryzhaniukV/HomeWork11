@@ -20,4 +20,10 @@
     .products .images img {
         width: 100%;
     }
+    .products .menu ul {
+        flex-direction: column;
+    }
+    .products .menu ul li:not(:last-child) {
+        margin-bottom: 5px;
+    }
 }

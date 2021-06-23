@@ -49,3 +49,12 @@
         margin-right: 0px;
     }
 }
+@media (max-width: 500px)   {
+.team .team-photo .right-side .wrapper {
+    width: 65%;
+}
+.team .team-photo .right-side .wrapper:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+}
